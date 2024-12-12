@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_sample_dependency_injection_with_riverpod/data/repositories/foo/foo_repository.dart';
-import 'package:flutter_sample_dependency_injection_with_riverpod/ui/foo/provider/foo_provider.dart';
+import 'package:flutter_sample_dependency_injection_with_riverpod/ui/foo/providers/foo_provider.dart';
 
 class FooViewModel {
   FooViewModel({

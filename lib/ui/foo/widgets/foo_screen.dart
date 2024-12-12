@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sample_dependency_injection_with_riverpod/ui/foo/provider/foo_provider.dart';
+import 'package:flutter_sample_dependency_injection_with_riverpod/ui/foo/providers/foo_provider.dart';
 import 'package:flutter_sample_dependency_injection_with_riverpod/ui/foo/view_models/foo_viewmodel.dart';
 
 class FooScreen extends ConsumerWidget {
