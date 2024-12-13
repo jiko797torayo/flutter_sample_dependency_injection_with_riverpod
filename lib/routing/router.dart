@@ -16,14 +16,16 @@ GoRouter router(Ref ref) {
       GoRoute(
         path: Routes.foo,
         builder: (context, state) {
-          return Consumer(builder: (context, ref, child) {
-            return FooScreen(
-              viewModel: FooViewModel(
-                ref: ref,
-                fooRepository: ref.read(fooRepositoryProvider),
-              ),
-            );
-          });
+          return Consumer(
+            builder: (context, ref, child) {
+              return FooScreen(
+                viewModel: FooViewModel(
+                  ref: ref,
+                  fooRepository: ref.read(fooRepositoryProvider),
+                ),
+              );
+            },
+          );
         },
       ),
     ],
